@@ -99,7 +99,7 @@ button{
     font-weight: bold;
 }
 
-@media  (max-screen: 600px) {
+@media  (max-screen: 768px) {
     .main{
         width: 100%;
     }
