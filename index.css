@@ -23,7 +23,7 @@ h2, p, *{
 h4{
     font-weight: bold;
     margin: 2%;
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 #total{
@@ -55,7 +55,7 @@ body{
 #heading{
     color: rgb(9, 63, 66);
     margin: 2%;
-    font-size: 48px;
+    font-size: 42px;
 }
 
 #name{
@@ -64,16 +64,16 @@ body{
 }
 
 h2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 #count-el{
-    font-size: 3rem;
+    font-size: 50px;
     margin: 2%;
 }
 
 button{
-    padding: 3% 5%;
+    padding: 2% 5%;
     border-radius: 5px;
     width:100%;
     border: none;
@@ -97,4 +97,10 @@ button{
 .previous{
     font-size: larger;
     font-weight: bold;
+}
+
+@media  (max-screen: 600px) {
+    .main{
+        width: 100%;
+    }
 }
